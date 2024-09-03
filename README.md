@@ -4,7 +4,7 @@ EasyRobot es una tarjeta de desarrollo diseñada por CVR Electrónica que simpli
 Características
 
 ### Compatibilidad: 
-    Totalmente compatible con el IDE de Arduino y cualquiersoftware compatible con Arduino UNO.
+    Totalmente compatible con el IDE de Arduino y cualquier software compatible con Arduino UNO.
 
 # Instalación
 
@@ -112,7 +112,7 @@ void loop() {
 
 # Documentación Completa
 
-Consulta la documentación completa para más detalles sobre cómo usar todos los métodos disponibles en la librería: https://cvrelectronica.com/easyrobot/doc/.
+Consulta la documentación completa para más detalles sobre cómo usar todos los métodos disponibles en la librería: https://cvrelectronica.com/easyrobot/doc/
 
 # Contribuciones
 
