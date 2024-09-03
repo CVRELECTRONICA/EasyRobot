@@ -1,0 +1,72 @@
+# EasyRobot Library Keywords
+# Keywords de librería EasyRobot
+##############################################################
+# Syntax: <KEYWORD> <TAB> <CATEGORY>
+# Categories:
+#   'KEYWORD1'  for highlighted keywords (e.g., functions, constants)
+#   'KEYWORD2'  for types (e.g., classes)
+#   'KEYWORD3'  for predefined variables
+# Categorias:
+#   'KEYWORD1'  para resaltar keywords (ejemplo, funciones, constantes)
+#   'KEYWORD2'  para tipos (ejemplo, clases)
+#   'KEYWORD3'  para variables predefinidas
+##############################################################
+
+# Class
+EasyRobot      KEYWORD2
+
+# Functions
+enablePwm               KEYWORD1
+activarPwm              KEYWORD1
+setVelocity             KEYWORD1
+configurarVelocidad     KEYWORD1
+onMotor1                KEYWORD1
+onMotor2                KEYWORD1
+onMotors                KEYWORD1
+offMotors               KEYWORD1
+encenderMotor1          KEYWORD1
+encenderMotor2          KEYWORD1
+encenderMotores         KEYWORD1
+apagarMotores           KEYWORD1
+enableServo             KEYWORD1
+activarServo            KEYWORD1
+servoPosition           KEYWORD1
+posicionServo           KEYWORD1
+ledRGBSetColor          KEYWORD1
+ledRGBEncenderColor     KEYWORD1
+readButton              KEYWORD1
+leerBoton               KEYWORD1
+
+# Private Functions (Optional, can be omitted if not to be highlighted)
+neopixel_reset          KEYWORD1
+sendByte                KEYWORD1
+neopixel_sendBit        KEYWORD1
+
+# Constants
+AVANZAR                 LITERAL1
+RETROCEDER              LITERAL1
+FORWARD                 LITERAL1
+BACKWARD                LITERAL1
+M1A                     LITERAL1
+M1B                     LITERAL1
+M2A                     LITERAL1
+M2B                     LITERAL1
+MOTOR1                  LITERAL1
+MOTOR2                  LITERAL1
+LEDONBOARD              LITERAL1
+SERVO                   LITERAL1
+NEOPIXELDATAPIN         LITERAL1
+PUSHBUTTON              LITERAL1
+
+RED_COLOR               LITERAL1             
+GREEN_COLOR             LITERAL1
+BLUE_COLOR              LITERAL1
+WHITE_COLOR             LITERAL1
+BLACK_COLOR             LITERAL1
+COLOR_ROJO              LITERAL1
+COLOR_VERDE             LITERAL1
+COLOR_AZUL              LITERAL1
+COLOR_BLANCO            LITERAL1
+COLOR_NEGRO             LITERAL1
+APAGADO                 LITERAL1
+OFF                     LITERAL1
