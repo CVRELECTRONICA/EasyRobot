@@ -4,12 +4,13 @@ EasyRobot robot; //Instancia de la clase EasyRobot
 
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
 }
 
 void loop() {
   if(Serial.available() > 0){
     char c = Serial.read();
+    Serial.println(c);
     if(c == '1'){
       robot.encenderMotores(AVANZAR);
     }else if(c == '5'){

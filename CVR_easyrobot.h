@@ -56,6 +56,8 @@ public:
     void onMotor1(uint8_t d = FORWARD);         // Método para encender el motor 1
     void onMotor2(uint8_t d = FORWARD);        // Método para encender el motor 2
     void onMotors(uint8_t d, uint8_t v = 255); // Método para hacer los dos motores
+    offMotor1(); //Metodo para apagar el motor 1
+    offMotor2(); // Método para apagar el motor 2
     void offMotors(void); //apagar motores
     void encenderMotor1(uint8_t d = FORWARD);         // Método para encender el motor 1
     void encenderMotor2(uint8_t d = FORWARD);        // Método para encender el motor 2

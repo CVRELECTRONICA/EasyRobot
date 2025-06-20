@@ -120,6 +120,15 @@ void EasyRobot::onMotors(uint8_t d = FORWARD, uint8_t v = 255) {
 
 }
 
+void EasyRobot::offMotor1(){
+    digitalWrite(M1A, LOW);
+    digitalWrite(M1B, LOW); 
+}
+
+void EasyRobot::offMotor2(){
+    digitalWrite(M2A, LOW);
+    digitalWrite(M2B, LOW); 
+}
 void EasyRobot::offMotors(){
     digitalWrite(M1A, LOW);
     digitalWrite(M1B, LOW);
